@@ -1,0 +1,22 @@
+/* 
+void the browser to set custom padding.
+ */
+ *,
+ *::after,
+ *::before {
+   margin: 0;
+   padding: 0;
+   box-sizing: inherit;
+ }
+ 
+ html {
+     
+   font-size: 62.5%;
+ }
+ 
+ /* 
+  setting up universal fonts for the whole project.
+   */
+ body {
+   box-sizing: border-box;
+ }
